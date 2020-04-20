@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ningshuang-yao.github.io/myblog/</id>
     <title>Yao Gang&apos;s Blog</title>
-    <updated>2020-04-20T14:07:45.564Z</updated>
+    <updated>2020-04-20T14:13:05.635Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ningshuang-yao.github.io/myblog/"/>
     <link rel="self" href="https://ningshuang-yao.github.io/myblog/atom.xml"/>
@@ -16,40 +16,50 @@
         <link href="https://ningshuang-yao.github.io/myblog/post/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin/">
         </link>
         <updated>2020-04-20T14:06:13.000Z</updated>
-        <content type="html"><![CDATA[<p>#1.GATK<br>
-##（1）program language：C++<br>
-##（2）Reference:<br>
-10.1101/gr.107524.110（Genome Research，2010）<br>
-10.1038/ng.806（Nature Genetics，2011）<br>
-10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
-10.1101/201178（bioRxiv，2017）<br>
-##（3）Manual：<br>
-https://github.com/broadinstitute/gatk<br>
-10.1038/ng.806（Nature Genetics，2011）<br>
-10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
-##（4）Link：<br>
-https://github.com/broadinstitute/gatk/releases<br>
-#2.DeepVariant<br>
-##（1）program language：C++，Python<br>
-##（2）Reference:<br>
-10.1038/nbt.42352(Nature Biotechnology ，2018）<br>
-10.1101/2020.02.10.942086（bioRxiv，2020）<br>
-##（3）Manual：<br>
-https://github.com/google/deepvariant/tree/r0.10/docs<br>
-##（4）Link：<br>
-https://github.com/google/deepvariant<br>
-##3.Sentieon（商业版GATK）<br>
-https://www.sentieon.com<br>
-##4.SAMtools<br>
-##（1）program language：C<br>
-##（2）Reference:<br>
-10.1093/bioinformatics/btp352(Bioinformatics，2009）<br>
-10.1101/gr.114819.110（Genome Research，2011）<br>
-10.1101/020024（bioRxiv ，2015）<br>
-##（3）Manual：<br>
-http://www.htslib.org/doc/<br>
-##（4）Link：<br>
-https://github.com/samtools/samtools</p>
+        <content type="html"><![CDATA[<h1 id="1gatk">1.GATK</h1>
+<h2 id="1program-languagec">（1）program language：C++</h2>
+<h2 id="2reference">（2）Reference:</h2>
+<pre><code> 10.1101/gr.107524.110（Genome Research，2010）
+ 10.1038/ng.806（Nature Genetics，2011）
+ 10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）
+ 10.1101/201178（bioRxiv，2017）
+</code></pre>
+<h2 id="3manual">（3）Manual：</h2>
+<pre><code>  https://github.com/broadinstitute/gatk
+  10.1038/ng.806（Nature Genetics，2011）
+  10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）
+</code></pre>
+<h2 id="4link">（4）Link：</h2>
+<pre><code>   https://github.com/broadinstitute/gatk/releases
+</code></pre>
+<h1 id="2deepvariant">2.DeepVariant</h1>
+<h2 id="1program-languagecpython">（1）program language：C++，Python</h2>
+<h2 id="2reference-2">（2）Reference:</h2>
+<pre><code>   10.1038/nbt.42352(Nature Biotechnology ，2018）
+   10.1101/2020.02.10.942086（bioRxiv，2020）
+</code></pre>
+<h2 id="3manual-2">（3）Manual：</h2>
+<pre><code>    https://github.com/google/deepvariant/tree/r0.10/docs
+</code></pre>
+<h2 id="4link-2">（4）Link：</h2>
+<pre><code>    https://github.com/google/deepvariant
+</code></pre>
+<h2 id="3sentieon商业版gatk">3.Sentieon（商业版GATK）</h2>
+<pre><code>    https://www.sentieon.com
+</code></pre>
+<h2 id="4samtools">4.SAMtools</h2>
+<h2 id="1program-languagec-2">（1）program language：C</h2>
+<h2 id="2reference-3">（2）Reference:</h2>
+<pre><code>   10.1093/bioinformatics/btp352(Bioinformatics，2009）
+   10.1101/gr.114819.110（Genome Research，2011）
+   10.1101/020024（bioRxiv ，2015）
+</code></pre>
+<h2 id="3manual-3">（3）Manual：</h2>
+<pre><code>   http://www.htslib.org/doc/
+</code></pre>
+<h2 id="4link-3">（4）Link：</h2>
+<pre><code>   https://github.com/samtools/samtools
+</code></pre>
 ]]></content>
     </entry>
 </feed>
