@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Yao Gang&#39;s Blog</title>
+<title>鉴定全基因组变异（Variant Calling）软件集锦 | Yao Gang&#39;s Blog</title>
 <meta name="description" content="定乎内外之分，辨乎荣辱之境" />
 <link rel="shortcut icon" href="https://ningshuang-yao.github.io/myblog//favicon.ico">
 <link rel="stylesheet" href="https://ningshuang-yao.github.io/myblog//styles/main.css">
@@ -14,11 +14,17 @@
 <script src="https://ningshuang-yao.github.io/myblog//media/js/view-image.min.js"></script>
 <script src="https://ningshuang-yao.github.io/myblog//media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://ningshuang-yao.github.io/myblog//media/js/functions.js"></script>
+    <meta name="referrer" content="never">
+    <meta name="description" content="#1.GATK
+##（1）program language：C++
+##（2）Reference:
+10.1101/gr.107524.110（Genome Research，2010）
+10.1038/ng.806（Nature Gene..." />
+    <meta name="keywords" content="" />
+    <script src="https://ningshuang-yao.github.io/myblog//media/js/waterfall.min.js"></script>
+    <script src="https://ningshuang-yao.github.io/myblog//media/js/prism.min.js"></script>
   </head>
   <body>
-    <!-- start: #wrapper -->
-    <div class="wrapper">
-      
             <header id="header" class="grid-container">
         <!-- start: .menu-wrapper -->
         <div class="menu-mobile"> 
@@ -33,7 +39,7 @@
 
             <nav class="main-nav grid-container grid-parent">
               <ul id="menu-header" class="menu gradient-effect">
-                <li class="current-menu-item"><a href="https://ningshuang-yao.github.io/myblog/" class="menu">首页</a></li>
+                <li class=""><a href="https://ningshuang-yao.github.io/myblog/" class="menu">首页</a></li>
                 
                   <li class="" >
                     <a href="/" class="menu">
@@ -85,60 +91,90 @@
         </div>
       </div>
 
-      <main id="home" class="main">
-        <div class="grid-container module-wrapper enable-masonry aos-init aos-animate" data-aos="fade-up">
-        <div class="row">
-          <div class="content-wrapper grid-posts content">
-                
-            <!-- start: .articles -->
-            
+      <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
+
+        <div class="center content">
+          <div class="featured-image cover" style="background-image: url('');">
+            <div class="meta top"> 
+              <time class="meta-info" style="float:left;" datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">2 分钟前</span></time>
               
-              
-              <div class="articles columns-3">
-                
-                <article class="bgstyle grid-33 tablet-grid-50 mobile-grid-100 np-mobile post type-post status-publish format-standard has-post-thumbnail hentry" style="">
-                  <div class="article-wrapper  cover" style="background-image: url('');">
-                  <header>
-                    
-                    <div class="meta">
-                      <time datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">2 分钟前</span></time>
-                      <div class="clear"></div>
-                    </div>
-                    <h1 class="title main-title gradient-effect"><a href="https://ningshuang-yao.github.io/myblog/post/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin/">鉴定全基因组变异（Variant Calling）软件集锦</a></h1>
-                  </header>
-                  <footer class="author-meta">
-                    <a href="" class="author" title="">
-                      <span class="author-image cover" style="background-image: url('https://ningshuang-yao.github.io/myblog//images/avatar.png');"></span>
-                      <span class="author-name">Yao Gang&#39;s Blog</span>
-                    </a>
-                    
-                    <div class="clear"></div>
-                  </footer>
-                  <div class="overlay"></div>       
-                </div>
-              </article>
-                
-              
-              
-              <div class="clear"></div>
-              <div class="separator last hide-on-tablet hide-on-mobile"></div>
             </div>
-            <!-- end: .articles -->
-            
-                        <div class="epcl-pagination section">
-              <div class="nav">
-                
+            <div class="info">
+              <div class="tags ">
                 
               </div>
+              <h1 class="title ularge white bold">鉴定全基因组变异（Variant Calling）软件集锦</h1>
             </div>
+          </div>
+        </div>  
 
+        <div class="epcl-page-wrapper">
+          <div class="left-content grid-70 np-mobile">
+            <article class="main-article post">
+              <section class="post-content">
+                <div class="text">
+                  <p>#1.GATK<br>
+##（1）program language：C++<br>
+##（2）Reference:<br>
+10.1101/gr.107524.110（Genome Research，2010）<br>
+10.1038/ng.806（Nature Genetics，2011）<br>
+10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
+10.1101/201178（bioRxiv，2017）<br>
+##（3）Manual：<br>
+https://github.com/broadinstitute/gatk<br>
+10.1038/ng.806（Nature Genetics，2011）<br>
+10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
+##（4）Link：<br>
+https://github.com/broadinstitute/gatk/releases<br>
+#2.DeepVariant<br>
+##（1）program language：C++，Python<br>
+##（2）Reference:<br>
+10.1038/nbt.42352(Nature Biotechnology ，2018）<br>
+10.1101/2020.02.10.942086（bioRxiv，2020）<br>
+##（3）Manual：<br>
+https://github.com/google/deepvariant/tree/r0.10/docs<br>
+##（4）Link：<br>
+https://github.com/google/deepvariant<br>
+##3.Sentieon（商业版GATK）<br>
+https://www.sentieon.com<br>
+##4.SAMtools<br>
+##（1）program language：C<br>
+##（2）Reference:<br>
+10.1093/bioinformatics/btp352(Bioinformatics，2009）<br>
+10.1101/gr.114819.110（Genome Research，2011）<br>
+10.1101/020024（bioRxiv ，2015）<br>
+##（3）Manual：<br>
+http://www.htslib.org/doc/<br>
+##（4）Link：<br>
+https://github.com/samtools/samtools</p>
+
+                </div>
+                <div class="clear"></div>
+              </section>
+            </article>
+            <div class="clear"></div>
+
+            <section class="related section">
+              
+              
+
+                <div class="clear"></div>
+            </section>
+
+              <div class="clear"></div>
+              
             
+              <div id="comments" class="bg-white hosted ">
+                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+              </div>
+              <div class="clear"></div>
+            
+
+            </div>
           </div>
-          </div>
-        </div>
       </main>
 
-        <footer id="footer" class="grid-container">
+          <footer id="footer" class="grid-container">
         <div class="widgets row gradient-effect">
             <div class="default-sidebar border-effect">
               <div class="grid-33 tablet-grid-50 mobile-grid-100">
@@ -222,6 +258,9 @@
     <div class="clear"></div>
 
         
+
+      
+    <script src="https://ningshuang-yao.github.io/myblog//media/js/functions-post.js"></script>
 
     </div>
     <!-- end: #wrapper -->

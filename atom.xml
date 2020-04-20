@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ningshuang-yao.github.io/myblog/</id>
     <title>Yao Gang&apos;s Blog</title>
-    <updated>2020-04-20T14:04:16.073Z</updated>
+    <updated>2020-04-20T14:07:45.564Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ningshuang-yao.github.io/myblog/"/>
     <link rel="self" href="https://ningshuang-yao.github.io/myblog/atom.xml"/>
@@ -10,4 +10,46 @@
     <logo>https://ningshuang-yao.github.io/myblog/images/avatar.png</logo>
     <icon>https://ningshuang-yao.github.io/myblog/favicon.ico</icon>
     <rights>All rights reserved 2020, Yao Gang&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[鉴定全基因组变异（Variant Calling）软件集锦]]></title>
+        <id>https://ningshuang-yao.github.io/myblog/post/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin/</id>
+        <link href="https://ningshuang-yao.github.io/myblog/post/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin/">
+        </link>
+        <updated>2020-04-20T14:06:13.000Z</updated>
+        <content type="html"><![CDATA[<p>#1.GATK<br>
+##（1）program language：C++<br>
+##（2）Reference:<br>
+10.1101/gr.107524.110（Genome Research，2010）<br>
+10.1038/ng.806（Nature Genetics，2011）<br>
+10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
+10.1101/201178（bioRxiv，2017）<br>
+##（3）Manual：<br>
+https://github.com/broadinstitute/gatk<br>
+10.1038/ng.806（Nature Genetics，2011）<br>
+10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）<br>
+##（4）Link：<br>
+https://github.com/broadinstitute/gatk/releases<br>
+#2.DeepVariant<br>
+##（1）program language：C++，Python<br>
+##（2）Reference:<br>
+10.1038/nbt.42352(Nature Biotechnology ，2018）<br>
+10.1101/2020.02.10.942086（bioRxiv，2020）<br>
+##（3）Manual：<br>
+https://github.com/google/deepvariant/tree/r0.10/docs<br>
+##（4）Link：<br>
+https://github.com/google/deepvariant<br>
+##3.Sentieon（商业版GATK）<br>
+https://www.sentieon.com<br>
+##4.SAMtools<br>
+##（1）program language：C<br>
+##（2）Reference:<br>
+10.1093/bioinformatics/btp352(Bioinformatics，2009）<br>
+10.1101/gr.114819.110（Genome Research，2011）<br>
+10.1101/020024（bioRxiv ，2015）<br>
+##（3）Manual：<br>
+http://www.htslib.org/doc/<br>
+##（4）Link：<br>
+https://github.com/samtools/samtools</p>
+]]></content>
+    </entry>
 </feed>
