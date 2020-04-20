@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>鉴定全基因组变异（Variant Calling）软件集锦 | Yao Gang&#39;s Blog</title>
+<title>构建系统发生树之软件集锦(更新于2020.04.20) | Yao Gang&#39;s Blog</title>
 <meta name="description" content="定乎内外之分，辨乎荣辱之境" />
 <link rel="shortcut icon" href="https://ningshuang-yao.github.io/myblog//favicon.ico">
 <link rel="stylesheet" href="https://ningshuang-yao.github.io/myblog//styles/main.css">
@@ -15,12 +15,12 @@
 <script src="https://ningshuang-yao.github.io/myblog//media/js/jquery.magnific-popup.min.js"></script>
 <script src="https://ningshuang-yao.github.io/myblog//media/js/functions.js"></script>
     <meta name="referrer" content="never">
-    <meta name="description" content="1.GATK
-（1）program language：C++
-（2）Reference:
- 10.1101/gr.107524.110（Genome Research，2010）
- 10.1038/ng.806（Nature Genetic..." />
-    <meta name="keywords" content="biosoft" />
+    <meta name="description" content="1.复杂的网络状进化树
+splittree
+（1）program language:C++
+（2）Reference:10.1093/molbev/msj030(Molecular Biology and Evolution，2006）
+（..." />
+    <meta name="keywords" content="" />
     <script src="https://ningshuang-yao.github.io/myblog//media/js/waterfall.min.js"></script>
     <script src="https://ningshuang-yao.github.io/myblog//media/js/prism.min.js"></script>
   </head>
@@ -94,18 +94,16 @@
       <main id="single" class="main grid-container fullcover no-sidebar aos-init aos-animate" data-aos="fade">
 
         <div class="center content">
-          <div class="featured-image cover" style="background-image: url('https://ningshuang-yao.github.io/myblog//post-images/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin.jpg');">
+          <div class="featured-image cover" style="background-image: url('https://ningshuang-yao.github.io/myblog//post-images/gou-jian-xi-tong-fa-sheng-shu-zhi-ruan-jian-ji-jin.jpg');">
             <div class="meta top"> 
-              <time class="meta-info" style="float:left;" datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">30 分钟前</span></time>
+              <time class="meta-info" style="float:left;" datetime="2020-04-20"><i class="fa fa-calendar"></i><span class="lately">19 分钟前</span></time>
               
             </div>
             <div class="info">
               <div class="tags ">
                 
-                      <a href="https://ningshuang-yao.github.io/myblog/tag/MRNhPpCzX/" class="ctag ctag-0 ctag-MRNhPpCzX" aria-label="">biosoft</a>
-                    
               </div>
-              <h1 class="title ularge white bold">鉴定全基因组变异（Variant Calling）软件集锦</h1>
+              <h1 class="title ularge white bold">构建系统发生树之软件集锦(更新于2020.04.20)</h1>
             </div>
           </div>
         </div>  
@@ -115,50 +113,140 @@
             <article class="main-article post">
               <section class="post-content">
                 <div class="text">
-                  <h1 id="1gatk">1.GATK</h1>
-<h2 id="1program-languagec">（1）program language：C++</h2>
-<h2 id="2reference">（2）Reference:</h2>
-<pre><code> 10.1101/gr.107524.110（Genome Research，2010）
- 10.1038/ng.806（Nature Genetics，2011）
- 10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）
- 10.1101/201178（bioRxiv，2017）
+                  <h1 id="1复杂的网络状进化树">1.复杂的网络状进化树</h1>
+<h2 id="splittree">splittree</h2>
+<h3 id="1program-languagec">（1）program language:C++</h3>
+<h3 id="2reference101093molbevmsj030molecular-biology-and-evolution2006">（2）Reference:10.1093/molbev/msj030(Molecular Biology and Evolution，2006）</h3>
+<h3 id="3manualhttpsuni-tuebingendefakultaetenmathematisch-naturwissenschaftliche-fakultaetfachbereicheinformatiklehrstuehlealgorithms-in-bioinformaticssoftwaresplitstree">（3）Manual：https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/algorithms-in-bioinformatics/software/splitstree/</h3>
+<h3 id="4linkhttpssoftware-abinformatikuni-tuebingendedownloadsplitstree5welcomehtml">（4）Link:https://software-ab.informatik.uni-tuebingen.de/download/splitstree5/welcome.html</h3>
+<h2 id="treemix">Treemix</h2>
+<h3 id="1program-languagec-2">（1）program language:C++</h3>
+<h3 id="2reference">（2）Reference:</h3>
+<pre><code>              10.1371/journal.pgen.1002967（Plos Genetics，2012）
+
+              10.1038/ncomms2140（Nature Communications，2012）
 </code></pre>
-<h2 id="3manual">（3）Manual：</h2>
-<pre><code>  https://github.com/broadinstitute/gatk
-  10.1038/ng.806（Nature Genetics，2011）
-  10.1002/0471250953.bi1110s43（Current protocols in human genetics，2013）
+<h3 id="3manual">（3）Manual：</h3>
+<pre><code>             https://bitbucket.org/nygcresearch/treemix/wiki/Home
+
+             https://speciationgenomics.github.io/Treemix/
 </code></pre>
-<h2 id="4link">（4）Link：</h2>
-<pre><code>   https://github.com/broadinstitute/gatk/releases
+<h3 id="4link-httpsspeciationgenomicsgithubiotreemix">（4）Link:    https://speciationgenomics.github.io/Treemix/</h3>
+<h1 id="2传统的二叉状进化树">2.传统的二叉状进化树</h1>
+<h2 id="ml-tree">ML tree</h2>
+<h3 id="iq-tree">IQ-Tree</h3>
+<h4 id="1program-languagec-3">（1）program language：C++</h4>
+<h4 id="2reference101093molbevmsu300molecular-biology-and-evolution-2015">（2）Reference:10.1093/molbev/msu300（Molecular Biology and Evolution, 2015）</h4>
+<h4 id="3manualhttpwwwiqtreeorgdoc">（3）Manual：http://www.iqtree.org/doc/</h4>
+<h4 id="4linkhttpsgithubcomcibiviq-tree">（4）Link：https://github.com/Cibiv/IQ-TREE</h4>
+<h3 id="raxml-ng">RAxML-NG</h3>
+<h4 id="1program-languagec-4">（1）program language：C++</h4>
+<h4 id="2reference-2">（2）Reference:</h4>
+<pre><code>                10.1007/978-3-662-44753-6_16（Conference：workshop on algorithms in bioinformatics，2014）
+
+                10.1093/bioinformatics/btu033（Bioinformatics，2014）
+
+                10.1093/sysbio/syu084（Systematic  Biology，2015）
+
+                10.1093/bioinformatics/btv184（Bioinformatics，2015）
+
+                10.1093/bioinformatics/btz305(Bioinformatics，2019)
 </code></pre>
-<h1 id="2deepvariant">2.DeepVariant</h1>
-<h2 id="1program-languagecpython">（1）program language：C++，Python</h2>
-<h2 id="2reference-2">（2）Reference:</h2>
-<pre><code>   10.1038/nbt.42352(Nature Biotechnology ，2018）
-   10.1101/2020.02.10.942086（bioRxiv，2020）
+<h4 id="3manualhttpsgithubcomamkozlovraxml-ngwiki">（3）Manual：https://github.com/amkozlov/raxml-ng/wiki</h4>
+<h4 id="4linkhttpsgithubcomamkozlovraxml-ng">（4）Link：https://github.com/amkozlov/raxml-ng</h4>
+<h3 id="phyml">PhyML</h3>
+<h4 id="1program-languagec-5">（1）program language：C</h4>
+<h4 id="2reference-3">（2）Reference:</h4>
+<pre><code>                10.1093/sysbio/syq010（Systematic Biology，2010）
+
+                10.1016/j.tpb.2016.05.002（Theoretical  Population Biology，2016）
+
+                10.1093/sysbio/syy003（Systematic Biology，2018）
 </code></pre>
-<h2 id="3manual-2">（3）Manual：</h2>
-<pre><code>    https://github.com/google/deepvariant/tree/r0.10/docs
+<h4 id="3manualhttpsgithubcomstephaneguindonphymltreemasterdoc">（3）Manual：https://github.com/stephaneguindon/phyml/tree/master/doc</h4>
+<p>####（4）Link：https://github.com/stephaneguindon/phyml</p>
+<h3 id="snphylo">SNPhylo</h3>
+<h4 id="1program-languageshell">（1）program  language：Shell</h4>
+<h4 id="2reference1011861471-2164-15-162bmc-genomics-2014">（2）Reference:：10.1186/1471-2164-15-162（BMC Genomics ，2014）</h4>
+<h4 id="3manualhttpchibbapgmlugaedusnphylo">（3）Manual：http://chibba.pgml.uga.edu/snphylo</h4>
+<h4 id="4link">（4）Link：</h4>
+<pre><code>            https://github.com/thlee/SNPhylo
+
+            http://chibba.pgml.uga.edu/snphylo
 </code></pre>
-<h2 id="4link-2">（4）Link：</h2>
-<pre><code>    https://github.com/google/deepvariant
+<h3 id="buscoorthophylo">BuscoOrthoPhylo</h3>
+<h4 id="1program-languagepython">（1）program language：Python</h4>
+<h4 id="2referenceno-published-info">（2）Reference:：no published info</h4>
+<h4 id="3manualhttpsgithubcomplantdr430buscoorthophylo">（3）Manual：https://github.com/PlantDr430/BuscoOrthoPhylo</h4>
+<h4 id="4linkhttpsgithubcomplantdr430buscoorthophylo">（4）Link：https://github.com/PlantDr430/BuscoOrthoPhylo</h4>
+<h3 id="fasttree">FastTree</h3>
+<h4 id="1program-languagec-6">（1）program language：C</h4>
+<h4 id="2reference-4">（2）Reference:</h4>
+<pre><code>                10.1093/molbev/msp077(Molecular Biology and Evolution，2009）
+
+                10.1371/journal.pone.0009490(PLoS ONE，2010)
 </code></pre>
-<h2 id="3sentieon商业版gatk">3.Sentieon（商业版GATK）</h2>
-<pre><code>    https://www.sentieon.com
+<h4 id="3manualhttpmicrobesonlineorgfasttree">（3）Manual：http://microbesonline.org/fasttree.</h4>
+<h4 id="4linkhttpwwwmicrobesonlineorgfasttree">（4）Link:http://www.microbesonline.org/fasttree/</h4>
+<h2 id="bi-tree">BI tree</h2>
+<h3 id="mrbayes">MrBayes</h3>
+<h4 id="1program-languagec-7">（1）program language：C</h4>
+<h4 id="2reference-5">（2）Reference:</h4>
+<pre><code>                10.1093/bioinformatics/17.8.754（Bioinformatics, 2001）
+
+                10.1093/bioinformatics/btg180（Bioinformatics,2003）
+
+                10.1093/sysbio/sys029（Systematic  Biology，2012）
 </code></pre>
-<h2 id="4samtools">4.SAMtools</h2>
-<h2 id="1program-languagec-2">（1）program language：C</h2>
-<h2 id="2reference-3">（2）Reference:</h2>
-<pre><code>   10.1093/bioinformatics/btp352(Bioinformatics，2009）
-   10.1101/gr.114819.110（Genome Research，2011）
-   10.1101/020024（bioRxiv ，2015）
+<h4 id="3manual-2">（3）Manual：</h4>
+<pre><code>                 https://github.com/NBISweden/MrBayes/tree/develop/doc/manual
+
+                10.1038/s41559-017-0280-x（Nature Ecology &amp; Evolution ，2017）
 </code></pre>
-<h2 id="3manual-3">（3）Manual：</h2>
-<pre><code>   http://www.htslib.org/doc/
+<h4 id="4linkhttpsgithubcomnbiswedenmrbayes">（4）Link：https://github.com/NBISweden/MrBayes</h4>
+<h1 id="3介于12的进化树">3.介于1&amp;2的进化树</h1>
+<h2 id="treemix-2">Treemix</h2>
+<h2 id="phylonetworks">PhyloNetworks</h2>
+<h3 id="1program-languagejulia">（1）program language：Julia</h3>
+<h3 id="2reference101093sysbiosyy033systematic-biology2018">（2）Reference：10.1093/sysbio/syy033(Systematic Biology，2018)</h3>
+<h3 id="3manualhttpscrsl4githubiophylonetworksjldev">（3）Manual：https://crsl4.github.io/PhyloNetworks.jl/dev</h3>
+<h3 id="4linkhttpsgithubcomcrsl4phylonetworksjl">（4）Link：https://github.com/crsl4/PhyloNetworks.jl</h3>
+<h1 id="4美化调整">4.美化+调整</h1>
+<h2 id="itol">iTOL</h2>
+<h3 id="1program-languageno-informations">（1）program language：no informations</h3>
+<h3 id="2reference-6">（2）Reference：</h3>
+<pre><code>                10.1093/bioinformatics/btl529（Bioinformatics ，2007）
+
+                10.1093/nar/gkr201（Nucleic  acids research，2011）
+
+                10.1093/nar/gkw290（Nucleic  acids research，2016）
+
+                10.1093/nar/gkz239（Nucleic   acids research，2019）
 </code></pre>
-<h2 id="4link-3">（4）Link：</h2>
-<pre><code>   https://github.com/samtools/samtools
+<h3 id="3manual-3">（3）Manual：</h3>
+<pre><code>                    https://itol.embl.de/help.cgi
+
+                    https://itol.embl.de/video_tutorial.cgi
+
+                    http://wap.sciencenet.cn/blog-3334560-1129581.html
 </code></pre>
+<h3 id="4linkhttpsitolemblde">（4）Link：https://itol.embl.de/</h3>
+<h2 id="evolview">Evolview</h2>
+<h3 id="1program-languageno-informations-2">（1）program  language：no informations</h3>
+<h3 id="2reference-7">（2）Reference：</h3>
+<pre><code>               10.1093/nar/gks576（Nucleic  acids research，2012）
+
+               10.1093/nar/gkw370（Nucleic acids research，2016）
+
+               10.1093/nar/gkz357（Nucleic  acids research，2019）
+</code></pre>
+<h3 id="3manualhttpswwwevolgeniusinfoevolviewhelpsiteqst5html">（3）Manual：https://www.evolgenius.info/evolview/helpsite/qst5.html</h3>
+<h3 id="4linkhttpswwwevolgeniusinfo">（4）Link：https://www.evolgenius.info/</h3>
+<h2 id="ete-tookit">ETE Tookit</h2>
+<h3 id="1program-languagepython-2">（1）program language：Python</h3>
+<h3 id="2reference101093molbevmsw046molecular-biology-and-evolution2016">（2）Reference：10.1093/molbev/msw046（Molecular Biology and Evolution，2016）</h3>
+<h3 id="3manualhttpetetoolkitorgcookbook">（3）Manual：http://etetoolkit.org/cookbook/</h3>
+<h3 id="4linkhttpetetoolkitorg">（4）Link：http://etetoolkit.org/</h3>
 
                 </div>
                 <div class="clear"></div>
@@ -168,19 +256,19 @@
 
             <section class="related section">
               
-              <article class="prev grid-50 tablet-grid-50 grid-parent">
-                <div class="thumb cover lazy loaded" style="background-image: url('https://ningshuang-yao.github.io/myblog//post-images/gou-jian-xi-tong-fa-sheng-shu-zhi-ruan-jian-ji-jin.jpg');"></div>
-                 <a href="https://ningshuang-yao.github.io/myblog/post/gou-jian-xi-tong-fa-sheng-shu-zhi-ruan-jian-ji-jin/" class="full-link"></a>
+              
+              <article class="next grid-50 tablet-grid-50 grid-parent">
+                <div class="thumb cover lazy loaded" style="background-image: url('https://ningshuang-yao.github.io/myblog//post-images/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin.jpg');"></div>
+                 <a href="https://ningshuang-yao.github.io/myblog/post/jian-ding-quan-ji-yin-zu-bian-yi-variant-callingruan-jian-ji-jin/" class="full-link"></a>
                  <div class="info">
                   <time datetime="2020-04-20">2020-04-20</time>
-                  <h4 class="title white no-margin">构建系统发生树之软件集锦(更新于2020.04.20)</h4>
+                  <h4 class="title white no-margin">鉴定全基因组变异（Variant Calling）软件集锦</h4>
                 </div>
                  <span class="epcl-button red">
-                  <img src="https://ningshuang-yao.github.io/myblog//media/images/left-arrow.svg" width="15" alt="Left Arrow">
+                  <img src="https://ningshuang-yao.github.io/myblog//media/images/right-arrow.svg" width="15" alt="Left Arrow">
                 </span>
                 <div class="overlay"></div>
               </article>
-              
               
 
                 <div class="clear"></div>
